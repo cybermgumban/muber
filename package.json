@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon --exec mocha --recursive -R min"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.15.4",
     "mocha": "^3.5.3",
-    "mongoose": "^4.11.11"
+    "mongoose": "^4.11.11",
+    "supertest": "^3.0.0"
   }
 }
